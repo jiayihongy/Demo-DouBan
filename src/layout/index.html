@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- ws: 引入公共样式 -->
+    {{{include '../widget/public_style'}}}
+    <!-- we: 引入公共样式 -->
+</head>
+
+<body>
+
+    {{{include './components/header'}}} {{{include './components/register'}}} {{{include './components/hot-content'}}} {{{include './components/movie'}}} {{{include './components/reading'}}} {{{include './components/music'}}} {{{include './components/group'}}}
+    {{{include './components/city-wipe'}}} {{{include './components/footer'}}}
+
+    <!--ws: 公共Script -->
+    {{{include '../widget/public_script'}}}
+    <!--we: 公共Script -->
+    <script>
+        //通过require的方式来引入需要的js
+        require(['index'], function() {});
+    </script>
+</body>
+
+</html>
