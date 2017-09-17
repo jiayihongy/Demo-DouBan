@@ -1,0 +1,79 @@
+@import url("../../widget/common.less");
+.movie{
+    height: 670px;
+    background: #f7f7f7;
+    .movie-wrap{
+
+        .movie-catalog{
+            padding-top: 33px;
+            &>dl{
+                dt{
+                    font-size: 22px;
+                    line-height: 50px;
+                }
+                dd{
+                    a{
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .little-logo{
+                margin-top: 30px;
+                a:first-child{
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 6px;
+                    .bgi("app_icons_50_6.jpg",-350px,0);
+                    box-shadow: 4px 4px 6px #b4b4b4;
+                }
+                a:last-child{
+                    line-height: 24px;
+                }
+            }
+        }
+        .movie-list-wrap{
+            padding-top: 26px;
+            margin-left: 58px;
+            width: 495px;
+            .reying{
+                line-height: 48px;
+            }
+            .movie-img-text{
+                padding-left: 13px;
+            }
+        }
+        .movie-class{
+            padding-top: 26px;
+            margin-left: 68px;
+            width: 216px;
+            .movie-class-many{
+                &>h2{
+                    line-height: 48px;
+                }
+                &>ul{
+                    li{
+                        float: left;
+                        line-height: 24px;
+                        &:not(:nth-child(5n+1)){
+                            margin-left: 22px;
+                        }
+                    }
+                }
+            }
+            .movie-class-hot{
+                &>h2{
+                    line-height: 34px;        
+                }
+                ol{
+                    li{
+                        height: 35px;
+                        line-height: 35px;
+                        border-bottom: 1px dotted #9E9E9E;
+                    }
+                }
+            }
+        }
+    }
+}

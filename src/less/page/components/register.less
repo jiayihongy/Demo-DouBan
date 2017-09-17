@@ -1,5 +1,72 @@
 @import url("../../widget/common.less");
-.register{
-    height: 90px;
+
+.register-wrap {
     background: #e8edf1;
+    .register {
+        height: 68px;
+        padding-top: 20px;
+        .join-life{
+            &>a{
+                display: inline-block;
+                height:38px;
+                line-height: 38px;
+                text-align:center;
+                width: 120px;
+                background:#ef7360;
+                color:#fff;
+                border-radius: 4px;
+                strong{
+                    font-size: 14px;
+
+                }
+            }
+            &>span{
+                color:#666;
+                font-size:16px;
+                padding-left: 20px;
+                padding-top:14px
+            }
+        }
+        .login{
+            .input-group{
+                input{
+                    height:32px;
+                    width:158px;
+                    border:none;
+                    text-indent: 8px;
+                    &[type="submit"]{
+                        text-indent:0;
+                        width:80px;
+                        height:34px;
+                        background:#3ba354;
+                        color:#fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .remeber-me{
+                line-height:36px;
+                position: relative;
+                label{
+                    &>input{
+                        vertical-align: middle ;
+                        position:absolute;
+                        top: 12px;
+                        left: 0;
+                    }
+                    &>span{
+                        vertical-align:top;
+                        color:#000;
+                        padding-left:14px;
+                    }
+                }
+                &>a{
+                    position:absolute;
+                    top: 0;
+                    left:162px;
+                    color:#3377aa;
+                }
+            }
+        }
+    }
 }
