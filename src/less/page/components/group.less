@@ -1,0 +1,112 @@
+@import url("../../widget/common.less");
+.group{
+    padding-bottom: 85px;
+    a{
+        color: #005C64;
+        &:hover{
+            background: #017a85;
+            color: #fff;
+        }
+    }
+    .group-wrap{
+
+        .group-catalog{
+            padding-top: 33px;
+            &>dl{
+                dt{
+                    font-size: 22px;
+                    line-height: 50px;
+                    color: #017a85;
+                }
+                dd{
+                    a{
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .little-logo{
+                margin-top: 30px;
+                a:first-child{
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 6px;
+                    
+                    box-shadow: 4px 4px 6px #b4b4b4;
+                }
+                a:last-child{
+                    line-height: 24px;
+                }
+            }
+            .green-logo{
+                .bgi("app_icons_50_6.jpg",-500px,0);
+            }
+            .groupman-logo{
+                .bgi("app_icons_50_6.jpg",-50px,0);
+            }
+        }
+        .group-list-wrap{
+            padding-top: 26px;
+            margin-left: 58px;
+            width: 500px;
+            .xiaozu{
+                line-height: 28px;
+            }
+            .group-img-text{
+               
+                li{
+                    float: left;
+                    width: 250px;
+                    margin-bottom: 40px;
+                    .img-wrap{
+                        width: 48px;
+                        height: 48px;
+                        a{
+                            display: block;
+                            height: 100%;
+                            width: 100%;
+                            img{
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                    }
+                   .group-text{
+                    line-height: 18px;
+                    padding-left: 16px;
+                        a{
+                            display: block;
+                        }
+                        p{
+                            padding-top: 12px;
+                        }
+                   }
+                }
+            }
+        }
+        .group-class{
+            padding-top: 26px;
+            margin-left: 68px;
+            width: 240px;
+            .group-class-many{
+                &>h2{
+                    line-height: 48px;
+                }
+                &>ul{
+                    li{
+                        margin-bottom: 27px;
+                        h3{
+                            font-size: 14px;
+                        }
+                        p{
+                            a{
+                                margin-right: 13px;
+                            }
+                        }
+                    }
+                }
+            }         
+        }
+    }
+}
